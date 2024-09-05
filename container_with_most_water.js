@@ -35,7 +35,7 @@ function run(height) {
     //Tính diện tích hiện tại
     const currentArea = width * minHeight;
 
-    //Tính diện tích lớn nhất
+    //Tính diện tích lớn nhất = Diện tích ban đầu , diện tich hiện tại
     maxArea = Math.max(maxArea, currentArea);
 
     if (height[left] < height[right]) {
